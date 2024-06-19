@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Story Generator | COMP1073 Client-Side JavaScript</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Random Story Generator</h1>
+        <div class="buttons">
+            <button id="subject-btn">Pick a Subject</button>
+            <button id="verb-btn">Pick a Verb</button>
+            <button id="adjective-btn">Pick an Adjective</button>
+            <button id="object-btn">Pick an Object</button>
+            <button id="place-btn">Pick a Place</button>
+        </div>
+        <div class="results">
+            <p id="subject-result">[Subject]</p>
+            <p id="verb-result">[Verb]</p>
+            <p id="adjective-result">[Adjective]</p>
+            <p id="object-result">[Object]</p>
+            <p id="place-result">[Place]</p>
+        </div>
+        <button id="generate-btn">Generate Story</button>
+        <button id="reset-btn">Reset</button>
+        <button id="speak-btn">Speak the Story</button>
+        <div id="story-output" class="story-output">Your story will appear here...</div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
